@@ -1,0 +1,14 @@
+# Core
+torch==2.2.0          # automatic differentiation + GPU
+torchvision==0.17.0   # vision transforms and ResNet-18 backbone
+numpy==1.24.4
+
+# Data and metrics
+scikit-learn==1.4.0   # OpenML loader, train/test split, classification_report
+
+# Visualisation
+matplotlib==3.8.4
+Pillow==10.2.0
+
+# Quality-of-life
+tqdm==4.66.2          # progress bars
